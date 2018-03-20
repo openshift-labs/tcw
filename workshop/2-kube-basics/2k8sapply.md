@@ -18,7 +18,7 @@ Let's see if we can call the two services:
 
 `kubectl run -i -t --rm jumpod --restart=Never --image=quay.io/mhausenblas/jump:v0.1 -- sh`{{execute}}
 
-Now you should be in the `jumppod`, that is inside the cluster, and can `curl` the services like so:
+Now you should be in the `jumpod`, that is inside the cluster, and can `curl` the services like so:
 
 `curl stock-gen:9999/stockdata`{{execute}}
 
@@ -27,3 +27,5 @@ Now you should be in the `jumppod`, that is inside the cluster, and can `curl` t
 `curl stock-con:80/average/NYSE:RHT`{{execute}}
 
 If you see proper JSON output for both, you may move on, young jedi master!
+
+Don't forget to `exit` from the `jumpod` so that you're back on the prompt of the host (you should see a `master $` now).
