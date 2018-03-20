@@ -5,7 +5,7 @@ Let's first see how we can trigger a new deployment. For certain changes, such a
 
 Luckily there's a way to tickle the deployment resource spec to trigger a change (and you can use this trick for any resource change trigger)—simply add an annotation, for example:
 
-`kubectl patch deployment stock-con -p \"{\"spec\":{\"template\":{\"metadata\":{\"annotations\":{\"date\":\"`date +'%s'`\"}}}}}"`{{execute}} 
+`kubectl patch deployment stock-con -p "{\"spec\":{\"template\":{\"metadata\":{\"annotations\":{\"date\":\"$(date +'%s')\"}}}}}"`{{execute}} 
 
 With that out of the way, how about some horizontal scaling? Say we want three identical copies of our stock consumer:
 
