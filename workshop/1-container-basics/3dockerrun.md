@@ -6,6 +6,6 @@ Again, make sure that you replace the `$YOUR_IMAGE_NAME` with whatever you selec
 
 Now, you can check if it worked correctly by issuing the following command in a new terminal session (click the `+` button):
 
-`curl host01:80/average/NYSE:RHT`{{execute}}
+`curl localhost:80/average/NYSE:RHT`{{execute}}
 
 Or, you can click on the `Web Preview` pane and whatever URL comes up there, you append `average/NYSE:RHT`.

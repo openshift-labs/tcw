@@ -27,7 +27,7 @@
   ],
   "backend": {
     "trainingid": "openshift-middleware-3-7",
-    "imageid": "docker",
+    "imageid": "docker-direct",
     "port": 80
   },
   "details": {
