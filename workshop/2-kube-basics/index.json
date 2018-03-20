@@ -23,6 +23,10 @@
         { 
           "title": "Understanding the YAML app manifest",
           "text": "1k8syaml.md" 
+        },
+        {
+          "title": "Deploying an app using kubectl apply",
+          "text": "2k8sapply.md"
         }    
     ],
     "finish": {
