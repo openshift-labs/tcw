@@ -50,6 +50,9 @@
           "title": "Using a container registry",
           "text": "4registry.md"
         }    
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   }
 }
