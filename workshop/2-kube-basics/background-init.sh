@@ -1,1 +1,1 @@
-git clone https://github.com/kubernauts/dok-example-us.git
+ssh root@master "git clone https://github.com/kubernauts/dok-example-us.git"
