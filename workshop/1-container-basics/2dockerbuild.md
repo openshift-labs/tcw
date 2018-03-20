@@ -10,6 +10,4 @@ Did it work? Well, let's check:
 
 `docker images`{{execute}}
 
-Do you see your image here? If not, just start over by reloading of this page.
-
 Also, before you proceed make sure that you see an image called `quay.io/mhausenblas/stock-gen:0.3` in the images, there. This one is pulled in the background and you can only do the next step if this one is present.
