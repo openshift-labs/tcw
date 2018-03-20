@@ -10,6 +10,7 @@
       "dashboard": "Containerized Node.js app (port 9898)",
       "uilayout": "editor-terminal-v1",
       "uisettings": "dockerfile",
+      "uieditorpath": "/root/scenario",
       "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
       "uidependencies": [
         "/socket.io/socket.io.js",
