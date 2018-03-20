@@ -25,7 +25,7 @@
     "Dockerfile"
   ],
   "backend": {
-    "trainingid": "openshift-3-7",
+    "trainingid": "openshift-middleware-3-7",
     "imageid": "docker",
     "port": 80
   },
@@ -36,9 +36,9 @@
         "code": "foreground-init.sh"
     },
     "steps": [
-        { 
+        {
           "title": "Understanding the Dockerfile",
-          "text": "1dockerfile.md" 
+          "text": "1dockerfile.md"
         },
         {
           "title": "Building a container image",
@@ -51,7 +51,7 @@
         {
           "title": "Using a container registry",
           "text": "4registry.md"
-        }    
+        }
     ],
     "finish": {
       "text": "finish.md"
