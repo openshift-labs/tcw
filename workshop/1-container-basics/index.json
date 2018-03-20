@@ -6,8 +6,7 @@
   "difficulty": "Basic",
   "time": "30 minutes",
   "environment": {
-      "showdashboard": true,
-      "dashboard": "Containerized Node.js app (port 9898)",
+      "showdashboard": false,
       "uilayout": "editor-terminal-v1",
       "uisettings": "dockerfile",
       "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
