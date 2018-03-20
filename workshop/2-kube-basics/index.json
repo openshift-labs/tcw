@@ -17,7 +17,8 @@
   "details": {
     "intro": {
         "text": "intro.md",
-        "courseData": "background-init.sh"
+        "courseData": "background-init.sh",
+        "code": "foreground-init.sh"
     },
     "steps": [
         { 
