@@ -31,7 +31,7 @@
   "details": {
     "intro": {
         "text": "intro.md",
-        "courseData": "run-init.sh"
+        "courseData": "background-init.sh"
     },
     "steps": [
         { 
