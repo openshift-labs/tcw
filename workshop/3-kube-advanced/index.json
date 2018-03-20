@@ -13,6 +13,7 @@
         "hidefinish": false
     },
     "backend": {
+        "trainingid": "openshift-3-7",
         "imageid": "openshift-3-7",
         "port": 8443
     },

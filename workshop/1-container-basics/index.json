@@ -25,6 +25,7 @@
     "Dockerfile"
   ],
   "backend": {
+    "trainingid": "openshift-3-7",
     "imageid": "docker",
     "port": 80
   },
