@@ -1,0 +1,20 @@
+{
+  "title": "The Container Workshop",
+  "courses": [
+    {
+      "pathway_id": "workshop",
+      "course_id": "1-container-basics",
+      "title": "Container Basics"
+    },
+    {
+      "pathway_id": "workshop",
+      "course_id": "2-kube-basics",
+      "title": "Kubernetes Basics"
+    },
+    {
+      "pathway_id": "workshop",
+      "course_id": "3-kube-advanced",
+      "title": "Advanced Kubernetes"
+    }
+  ]
+}
