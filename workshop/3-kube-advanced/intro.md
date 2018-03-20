@@ -2,7 +2,7 @@ Here you'll learn how to use [OpenShift](https://www.openshift.org) to build and
 
 OpenShift incorporates several upstream projects (Kubernetes, Docker/CRI-O, HAProxy, Open vSwitch, etc.) while also providing additional features and functionality to make those upstream projects easier to consume.
 
-No matter if you're a developers or an operator, you've got the following options to communicate with OpenShift:
+No matter if you're a developer or an operator, you've got the following options to communicate with OpenShift:
 
 - Command Line Interface (CLI) … is called the `oc` tool, written in Go, and a super-set of `kubectl`.
 - Web Console … OpenShift also provides a feature rich Web console that provides a friendly graphical interface for interacting with the platform.
