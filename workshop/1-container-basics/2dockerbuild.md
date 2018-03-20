@@ -5,3 +5,9 @@ Now we'll build the container image. Note that you really should assign a sensib
 Above, replace the `$YOUR_IMAGE_NAME` with the name of your image. For example, Michael's would look as follows:
 
 `docker build -t quay.io/mhausenblas/stock-con:tcw0 .`
+
+Did it work? Well, let's check:
+
+`docker images`{{execute}}
+
+Do you see your image here? If not, just start over by reloading of this page.

@@ -1,10 +1,10 @@
-A Dockerfile describes how the container is supposed to be constructed. It's a bit like setting up software on a machine: you specify the steps to copy stuff around, install a package or maybe even build stuff from source. Let's have a look at a simple example, a [Dockerfile for a Node.js app](https://github.com/kubernauts/dok-example-us/blob/master/stock-con/Dockerfile):
+A Dockerfile describes how the container is supposed to be constructed. It's a bit like setting up software on a machine: you specify the steps to copy stuff around, install a package or maybe even build stuff from source. Let's have a look at a simple example, a [Node.js app](https://github.com/kubernauts/dok-example-us/blob/master/stock-con/):
 
 <pre class="file" data-filename="Dockerfile" data-target="replace">
 FROM mhart/alpine-node:8
 MAINTAINER Michael Hausenblas <mhausenb@redhat.com>
 WORKDIR /app
-COPY . .
+COPY dok-example-us/stock-con/ .
 RUN npm install express && \
     npm install
 USER nobody:nobody
