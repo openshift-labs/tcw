@@ -11,4 +11,4 @@ USER nobody:nobody
 CMD ["node", "service.js"]
 </pre>
 
-Now, paste above content—see the copy icon in the lower-right corner of above block—and it will be automatically saved in a file called (surprise!) `Dockerfile` in the current directory.
+Now, paste above content—see the copy icon in the upper-right corner of above block—and it will be automatically saved in a file called (surprise!) `Dockerfile` in the current directory.
