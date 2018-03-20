@@ -36,12 +36,12 @@
               "text": "3deploydocker.md"
             },
             {
-              "title": "North/South traffic with Routes",
-              "text": "4routes.md"
+              "title": "Building app from source code",
+              "text": "4s2i.md"
             },
             {
-              "title": "Building app from source code",
-              "text": "5s2i.md"
+              "title": "North/South traffic with Routes",
+              "text": "5routes.md"
             }
         ],
         "finish": {
