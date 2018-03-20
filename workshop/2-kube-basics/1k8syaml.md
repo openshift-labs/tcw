@@ -30,7 +30,7 @@ spec:
         - name: DOK_STOCKGEN_PORT
           value: "9999"
         ports:
-        - containerPort: 8080
+        - containerPort: 9898
           protocol: TCP
 ---
 apiVersion: v1
