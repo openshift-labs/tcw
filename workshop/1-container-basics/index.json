@@ -7,21 +7,31 @@
   "time": "30 minutes",
   "environment": {
       "showdashboard": true,
-      "dashboards": [
-        {
-          "name": "Tab Name",
-          "port": 80
-        }
-      ],
-      "uilayout": "terminal",
-      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+      "dashboard": "Containerized Node.js app (port 9898)",
+      "uilayout": "editor-terminal-v1",
+      "uisettings": "dockerfile",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+      "uidependencies": [
+        "/socket.io/socket.io.js",
+        "/javascripts/term.js",
+        "/js/vendor/ace/ace.js",
+        "/js/editor.js",
+        "/javascripts/terminal-application.js",
+        "/javascripts/editor-terminal-application.js",
+        "/javascripts/sync-editor-to-container.js"
+      ]
   },
+  "files": [
+    "Dockerfile"
+  ],
   "backend": {
     "imageid": "docker",
+    "port": 9898
   },
   "details": {
     "intro": {
         "text": "intro.md",
+        "courseData": "run-init.sh"
     },
     "steps": [
         { 
