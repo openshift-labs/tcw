@@ -28,7 +28,11 @@
         {
           "title": "Deploying an app using kubectl apply",
           "text": "2k8sapply.md"
-        }    
+        },
+        {
+          "title": "App lifecycle management",
+          "text": "3k8salm.md"
+        }
     ],
     "finish": {
       "text": "finish.md"

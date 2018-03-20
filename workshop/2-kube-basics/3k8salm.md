@@ -1,0 +1,1 @@
+kubectl scale and kubectl patch (force update)
