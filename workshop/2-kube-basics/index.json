@@ -1,0 +1,32 @@
+{
+  "pathwayTitle": "The Container Workshop",
+  "title": "Kubernetes Basics",
+  "icon": "fa-kubernetes",
+  "description": "Using Kubernetes low-level primitives to manage apps",
+  "difficulty": "Basic",
+  "time": "45 minutes",
+  "environment": {
+      "showdashboard": true,
+      "dashboard": "Kubernetes dashboard",
+      "uilayout": "terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  },
+  "details": {
+    "intro": {
+        "text": "intro.md",
+        "courseData": "background-init.sh"
+    },
+    "steps": [
+        { 
+          "title": "Understanding the YAML app manifest",
+          "text": "1k8syaml.md" 
+        }    
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  }
+}

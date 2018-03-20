@@ -1,6 +1,6 @@
 {
   "pathwayTitle": "The Container Workshop",
-  "title": "Introduction",
+  "title": "Container Basics",
   "icon": "fa-docker",
   "description": "How to build an app using containers",
   "difficulty": "Basic",

@@ -1,0 +1,1 @@
+A K8s YAML file or manifest

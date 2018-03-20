@@ -1,0 +1,1 @@
+In this scenario you will learn how to use low-level primitives of Kubernetes to manage apps. Especially, we'll be using the [stock market](https://github.com/kubernauts/dok-example-us) micro-services app you're already familiar with from the container basics scenario.
