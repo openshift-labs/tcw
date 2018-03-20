@@ -1,1 +1,1 @@
-In this scenario you will learn about the basics on how to build an app using containers. You will create a Dockerfile and build a container based on it.
+In this scenario you will learn about the basics on how to build an app using containers. You will create a Dockerfile and build a container based on it. Then you'll learn how to run a container based off of the container image you build and finally how to push it to a container registry.

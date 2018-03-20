@@ -27,6 +27,18 @@
         { 
           "title": "Understanding the Dockerfile",
           "text": "1dockerfile.md" 
+        },
+        {
+          "title": "Building a container image",
+          "text": "2dockerbuild.md"
+        },
+        {
+          "title": "Running a container",
+          "text": "3dockerrun.md"
+        },
+        {
+          "title": "Using a container registry",
+          "text": "4registry.md"
         }    
     ]
   }
