@@ -1,0 +1,33 @@
+{
+  "pathwayTitle": "The Container Workshop",
+  "title": "Introduction",
+  "icon": "fa-docker",
+  "description": "How to build an app using containers",
+  "difficulty": "Basic",
+  "time": "30 minutes",
+  "environment": {
+      "showdashboard": true,
+      "dashboards": [
+        {
+          "name": "Tab Name",
+          "port": 80
+        }
+      ],
+      "uilayout": "terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "docker",
+  },
+  "details": {
+    "intro": {
+        "text": "intro.md",
+    },
+    "steps": [
+        { 
+          "title": "Understanding the Dockerfile",
+          "text": "1dockerfile.md" 
+        }    
+    ]
+  }
+}
