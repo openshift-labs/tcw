@@ -1,0 +1,51 @@
+{
+    "pathwayTitle": "The Container Workshop",
+    "title": "Advanced Kubernetes",
+    "icon": "fa-openshift",
+    "description": "Using Kubernetes and OpenShift/S2I to manage apps",
+    "difficulty": "Advanced",
+    "time": "45 minutes",
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
+    },
+    "backend": {
+        "imageid": "openshift-3-7",
+        "port": 8443
+    },
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "courseData": "background-init.sh",
+            "code": "foreground-init.sh"
+        },
+        "steps": [
+            {
+              "title": "Exploring the OpenShift CLI",
+              "text": "1explorecli.md"
+            },
+            {
+              "title": "Exploring the OpenShift Web console",
+              "text": "2exploreconsole.md"
+            },
+            {
+              "title": "Deploying a Docker image",
+              "text": "3deploydocker.md"
+            },
+            {
+              "title": "North/South traffic with Routes",
+              "text": "4routes.md"
+            },
+            {
+              "title": "Building app from source code",
+              "text": "5s2i.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    }
+}
