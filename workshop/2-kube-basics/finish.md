@@ -1,4 +1,4 @@
-Congrats!! You've master the second level of containerized apps building. 
+Congrats!! You've mastered the second level of containerized apps building. 
 
 Note that via [kubectl-in-action](http://mhausenblas.info/kubectl-in-action/) you can learn even more Kubernetes CLI tricks and gather tips around debugging, RBAC, etc.
 
